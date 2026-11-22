@@ -6,20 +6,20 @@
 
 # BRSR Sustainability Comparison
 
-A data-driven review of **Business Responsibility and Sustainability Report (BRSR)** disclosures from Indian financial-services companies, combining a cross-company comparison with a detailed Section C extraction and qualitative review of Bajaj Finserv.
+A data-driven review of **Business Responsibility and Sustainability Report (BRSR)** disclosures from Indian financial-services companies. The project first compares four companies on a common set of headline metrics, then goes deep into one company's full Section C disclosures.
 
 **Portfolio:** [Open the project page](https://waliabidi2315.github.io/BRSR-Sustainability-Comparison/)  
 **Full report:** [Download the Word report](reports/BRSR_Analysis_of_Five_Indian_Financial_Services_Companies.docx)
 
 ## Project scope
 
-The project uses company BRSR disclosures to explore how environmental, workforce, governance and responsible-business indicators are reported—and how comparable those disclosures are in a financial-services context. The work is descriptive; it is **not an overall ESG rating or investment recommendation**.
+BRSR is SEBI's mandatory ESG disclosure format for India's top listed companies. It is organised around nine principles (P1–P9) of the National Guidelines on Responsible Business Conduct, and separates **Essential** indicators, which every company must report, from voluntary **Leadership** indicators. Financial-services firms are a useful test case: with no manufacturing footprint, their material issues are workforce, governance, customer treatment and financed emissions, and BRSR's manufacturing-style indicators fit them imperfectly.\n\nThe work is descriptive. It is **not an overall ESG rating or investment recommendation**.
 
 The project has two parts:
 - **Cross-company comparison:** four financial-services companies, using a common set of headline environmental and workforce measures.
 - **Company deep dive:** structured extraction and qualitative analysis of Bajaj Finserv's Section C, covering the NGRBC principles, year comparisons, wider tables and narrative answers.
 
-## Companies in the comparison
+\n## Project parts\n\n| Part | Question it answers | Scope |\n|---|---|---|\n| **Part 1: Cross-company comparison** | How do comparable companies look on the same headline measures? | Four companies, FY2024–25, seven environmental and workforce indicators |\n| **Part 2: Bajaj Finserv deep dive** | What does one company's full BRSR disclosure contain, and how good is it? | Section C across the NGRBC principles, FY2024 vs FY2023, quantitative and qualitative answers |\n\n## Companies in the comparison
 
 - Bajaj Finserv
 - ICICI
@@ -37,7 +37,7 @@ The project has two parts:
 
 The table reproduces the repository comparison dataset; blank cells are missing values, not zeroes. Reporting periods and disclosure boundaries differ.
 
-## Bajaj Finserv Section C data
+\n### Additional interpretation\n\n- **ICICI** has the lowest GHG and water intensity and lowest turnover in this four-company dataset, with the highest female wage-share proxy (26%).\n- **Muthoot Finance** reports the highest GHG and water intensity in this sample; this may reflect differences in branch footprint and operations, but the dataset alone cannot establish the cause.\n- **Aditya Birla Capital** has the highest turnover (38.87%). The report tracks it over four years; turnover peaked in 2023–24 and eased thereafter, while emissions and water series fluctuate in ways that complicate trend interpretation.\n- The **female wage-share proxy** is uneven and reflects workforce composition and pay distribution; it is not a gender-pay-gap measure.\n\nThis is a small sample, not a composite sustainability score or overall ranking.\n\n## Bajaj Finserv Section C data
 
 The cleaned extraction includes **542 rows** across Principles P1–P9, in Essential and Leadership indicator categories. It preserves the report's raw “As Reported” values and includes numeric values, units, periods, column labels, table items and qualitative answers.
 
@@ -50,7 +50,7 @@ The cleaned extraction includes **542 rows** across Principles P1–P9, in Essen
 | [Wide tables (CSV)](data/bajaj_finserv_wide_tables.csv) | Complex multi-column disclosures preserved in table-row form |
 | [Qualitative responses (CSV)](data/bajaj_finserv_qualitative.csv) | Narrative answers linked to principle/question and indicator |
 
-## Report
+\n### Environment (Principle 6): FY2024 vs FY2023\n\n| Indicator | FY2023 | FY2024 | Change |\n|---|---:|---:|---:|\n| Total energy (GJ) | 217,216 | 270,423 | +24.5% |\n| Water consumption (KL) | 704,829 | 870,931 | +23.6% |\n| Scope 1 (tCO₂e) | 14,843 | 6,057 | −59.2% |\n| Scope 2 (tCO₂e) | 36,793 | 42,089 | +14.4% |\n| Scope 3 (tCO₂e) | 18,747 | 28,753 | +53.4% |\n| Waste generated (MT) | 19.5 | 103.59 | +431% |\n\nAbsolute energy, water and Scope 2 and 3 emissions rose while energy intensity per rupee of turnover improved. Renewable energy is reported as under 1% of total energy consumed.\n\n### Findings from other principles\n\n- **Ethics (P1):** training coverage is 100% for the Board, key managerial personnel and employees; anti-corruption review is internal, with no external assessment.\n- **Employee well-being (P3):** women are about 12.5% of permanent employees. Return-to-work after parental leave is 99%, while subsequent retention is 77%.\n- **Human rights (P5):** sexual-harassment complaints rose from 14 to 38 and upheld complaints from 10 to 21; the data cannot determine whether reporting trust or incidence changed.\n- **Inclusive growth (P8):** MSME/small-producer sourcing fell from 9.80% to 8.43%; wage cost is concentrated in metropolitan areas (66.4%), with 1.6% in rural areas.\n- **Consumers (P9):** complaints rose about 19%, from 10,551 to 12,547.\n\n### Disclosure quality\n\nAll 40 FY2025 leadership indicators are marked disclosed, but answers range from numeric data to narrative, “not applicable” and “nil.” Completeness alone therefore does not establish decision-useful disclosure quality.\n\n## Report
 
 The [full analysis report](reports/BRSR_Analysis_of_Five_Indian_Financial_Services_Companies.docx) includes:
 1. Four-company headline comparison for FY2024–25 (as disclosed).
