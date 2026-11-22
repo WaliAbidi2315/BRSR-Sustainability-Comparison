@@ -1,10 +1,12 @@
 <div align="center">
 
+# BRSR Sustainability Comparison
+
 [![Python](https://img.shields.io/badge/Python-scraping-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![R](https://img.shields.io/badge/R-analysis-276DC3?logo=r&logoColor=white)](https://www.r-project.org/) [![Pandas](https://img.shields.io/badge/Pandas-data-150458?logo=pandas&logoColor=white)](#) [![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel%20outputs-217346?logo=microsoft-excel&logoColor=white)](https://openpyxl.readthedocs.io/) [![pdftools](https://img.shields.io/badge/R%20pdftools-PDF%20extraction-276DC3?logo=r&logoColor=white)](https://docs.ropensci.org/pdftools/) [![Poppler](https://img.shields.io/badge/Poppler-pdftotext-555555)](https://poppler.freedesktop.org/)
 
 </div>
 
-# BRSR Sustainability Comparison
+# Overview
 
 A data-driven review of **Business Responsibility and Sustainability Report (BRSR)** disclosures from Indian financial-services companies. The project first compares four companies on a common set of headline metrics, then goes deep into one company's full Section C disclosures.
 
