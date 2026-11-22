@@ -6,7 +6,7 @@
 
 </div>
 
-# Overview
+## Overview
 
 A data-driven review of **Business Responsibility and Sustainability Report (BRSR)** disclosures from Indian financial-services companies. The project first compares four companies on a common set of headline metrics, then goes deep into one company's full Section C disclosures.
 
